@@ -168,9 +168,3 @@ class ContentExtractor:
         if txt in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]:
             return True
         return False
-
-
-extractor = ContentExtractor()
-lines = extractor.extract(
-    "https://hongkong.asiaxpat.com/property/direct-owner-apartments-for-rent/143099/tai-hong-building/")
-print(lines)
